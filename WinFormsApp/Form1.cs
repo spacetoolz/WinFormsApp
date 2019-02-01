@@ -16,5 +16,28 @@ namespace WinFormsApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string name = tbName.Text;
+            var age = tb2age.Text;
+            MessageBox.Show($"Hello { name} You are {age} years old.");
+            
+        }
     }
 }
